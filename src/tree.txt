@@ -1,0 +1,39 @@
+文件夹 PATH 列表
+卷序列号为 00000008 0B36:0B9F
+E:.
+│  App.vue
+│  main.js
+│  tree.txt
+│  
+├─assets
+│      logo.png
+│      
+├─component
+│      footer.vue
+│      header.vue
+│      
+├─config
+│      routes.js
+│      
+├─css
+│      common.css
+│      
+├─less
+│      common.less
+│      
+├─pages
+│  ├─index
+│  │      index.vue
+│  │      
+│  ├─main
+│  │      main.vue
+│  │      
+│  └─page
+│          index.vue
+│          
+└─vuex
+        action.js
+        index.js
+        store.js
+        user.js
+        

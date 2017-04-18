@@ -1,0 +1,32 @@
+{
+"successful": true,
+"code": "200",
+"name": null,
+"message": null,
+"data": [
+{
+"atturl": "./src/component/img/banner4.jpg",
+"aid": 1,
+"aname": "潮流出游季",
+"url": "1"
+},
+{
+"atturl": "./src/component/img/banner4.jpg",
+"aid": 2,
+"aname": "家电抢购",
+"url": "4"
+},
+{
+"atturl": "./src/component/img/banner4.jpg",
+"aid": 3,
+"aname": "世界很大带上装备去看看",
+"url": "2"
+},
+{
+"atturl": "./src/component/img/banner4.jpg",
+"aid": 4,
+"aname": "至真首选、甜蜜相约",
+"url": "3"
+}
+]
+}

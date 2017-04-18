@@ -1,0 +1,40 @@
+body,div,ul,li,dl,dt,input,h1,h2,h3,h4,h5,h6,section,p,select,textarea,article,aside,details,footer,img{ margin:0; padding: 0;}
+section,article,aside,details{ display: block; }
+li{ list-style: none;}
+i,em,b{ font-style:normal;}
+a{ text-decoration: none; cursor: pointer; }
+a:active,a:link{
+  text-decoration: none;
+}
+img,input,button{ border: none;}
+body{
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 272011 */
+  src: url('//at.alicdn.com/t/font_7p8bek4vjklhxgvi.eot');
+  src: url('//at.alicdn.com/t/font_7p8bek4vjklhxgvi.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_7p8bek4vjklhxgvi.woff') format('woff'),
+  url('//at.alicdn.com/t/font_7p8bek4vjklhxgvi.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_7p8bek4vjklhxgvi.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon:before { content: "\e600"; }
+
+.icon-xiaoxi:before { content: "\e649"; }
+
+.icon-youjiantou:before { content: "\e61e"; }
+
+.icon-huo:before { content: "\e61d"; }
+
+.icon-search:before { content: "\e601"; }
+
