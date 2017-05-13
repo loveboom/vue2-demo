@@ -1,6 +1,7 @@
-import App from '../App.vue';
+import App from '../App.vue'
+import home from '../pages/index/index.vue'
 
-const home = r => require.ensure([], () => r(require('../pages/index/index.vue')), 'home')
+// const home = r => require.ensure([], () => r(require('../pages/index/index.vue')), 'home') //考虑home为首页,因此不选择懒加载,否则会导致加载时间过长
 const page = r => require.ensure([], () => r(require('../pages/page/index.vue')), 'page')
 const NotFoundComponent = r => require.ensure([], () => r(require('../component/NotFoundComponent.vue')), 'page')
 

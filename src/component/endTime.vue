@@ -41,7 +41,7 @@
   export default {
     data () {
       return {
-        date:'2017/4/18 09:03:10',
+        date:'2017/5/3 09:03:10',
         hour:24,
         minute:0,
         second:0,

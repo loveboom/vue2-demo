@@ -3,14 +3,21 @@
         <transition name="router-fade" mode="out-in">
     		<router-view></router-view>
     	</transition>
+        <foot></foot>
+        <div style="width: 100%;height: 66px;background-color:#f6f6f6;"></div>
     </div>
 </template>
 
 <script>
-
-    export default {
-
+import foot from './component/footer.vue'
+export default {
+    data (){
+        return {}
+    },
+    components:{
+        foot,
     }
+}
 </script>
 
 <style scoped>
